@@ -3,7 +3,6 @@
 <form action="<%= book_path(@book) %>" method="post">
   <%= render 'form', book: @book %>
   <input type="hidden" name="_method" value="patch">
-
 </form>
 
 <%= link_to 'Show', @book %> |
